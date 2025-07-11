@@ -11,7 +11,7 @@ let db;
 // Telegram Bot Token
 const BOT_TOKEN = '7796965802:AAGDsFwqhVVkATAfUROvTMymVsplJsAlxkc';
 const CHANNEL_USERNAME = '@solkah00'; // Your channel username
-const TARGET_CHANNEL_ID = -1002865214197; // Replace with your channel ID
+const TARGET_CHANNEL_ID = -1002246418480; // Replace with your channel ID
 
 // Initialize bot
 const bot = new Telegraf(BOT_TOKEN);
