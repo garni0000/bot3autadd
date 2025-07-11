@@ -1,4 +1,4 @@
-
+const http = require('http');
 const { Telegraf, Markup } = require('telegraf');
 const { MongoClient } = require('mongodb');
 const axios = require('axios');
@@ -255,3 +255,15 @@ function startScheduledTasks() {
 // Enable graceful stop
 process.once('SIGINT', () => bot.stop('SIGINT'));
 process.once('SIGTERM', () => bot.stop('SIGTERM'));
+
+
+
+
+
+// Serveur HTTP de statut (port 8080)
+http
+  .createServer((req, res) => {
+    res.writeHead(200, { 'Content-Type': 'text/plain' });
+    res.end('Bot en ligne');
+  })
+  .listen(8080, () => console.log('🌐 Serveur HTTP actif sur le port 8080'));
