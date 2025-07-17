@@ -125,7 +125,7 @@ function getRandomAd(firstName = "TestUser") {
             ])
         },
         {
-            caption: `🚨 ALERTE ${firstName}! Offre spéciale pour les nouveaux membres: 0€ avec le code Free221. Valable 24h seulement!`,
+            caption: `🚨 ALERTE ${firstName}! Offre spéciale pour les nouveaux membres: 100€ avec le code Free221. Valable 24h seulement!`,
             keyboard: Markup.inlineKeyboard([
                 Markup.button.url('Profiter de l\'offre', 'https://bit.ly/3NJ4vy0')
             ])
