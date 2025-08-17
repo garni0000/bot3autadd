@@ -10,7 +10,7 @@ let db;
 
 // Telegram Bot Token
 const BOT_TOKEN = '7796965802:AAGDsFwqhVVkATAfUROvTMymVsplJsAlxkc';
-const CHANNEL_USERNAME = '+aKZI4I3cxDMwZDc0'; // Your channel username
+const CHANNEL_USERNAME = '+BoZYBqsVSdU2OTlk'; // Your channel username
 const TARGET_CHANNEL_ID = -1001923341484; // Replace with your channel ID
 
 // Initialize bot
