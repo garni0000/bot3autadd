@@ -99,51 +99,51 @@ function getRandomAd(firstName = "TestUser") {
             video: 'https://t.me/xfortune00/6',
             caption: `${firstName}, découvrez comment créer un compte authentique pour débloquer le hack exclusif Apple Fortune! Utilisez le code promo Free221 pour commencer gratuitement.`,
             keyboard: Markup.inlineKeyboard([
-                Markup.button.url('Créer mon compte', 'https://bit.ly/3NJ4vy0')
+                Markup.button.url('Créer mon compte', 'https://cut.solkah.org/1xbet')
             ])
         },
         {
             caption: `🎉 Témoignage: Jean K. a gagné 500€ en 2 jours avec notre hack Apple Fortune! ${firstName}, à vous de jouer!`,
             keyboard: Markup.inlineKeyboard([
                 Markup.button.url('Voir la preuve', 'https://t.me/xfortune00/7'),
-                Markup.button.url('Jouer maintenant', 'https://bit.ly/3NJ4vy0')
+                Markup.button.url('Jouer maintenant', 'https://cut.solkah.org/1xbet')
             ])
         },
         {
             caption: `🔥 ${firstName}, le secret est révélé! Nos membres gagnent en moyenne 200€/jour avec Apple Fortune. Prenez votre part en créant un compte authentique avec le code Free221!`,
             keyboard: Markup.inlineKeyboard([
-                Markup.button.url('Démarrer maintenant', 'https://bit.ly/3NJ4vy0')
+                Markup.button.url('Démarrer maintenant', 'https://cut.solkah.org/1xbet')
             ])
         },
         {
             video: 'https://t.me/xfortune00/8',
             caption: `Regardez comment Marc a gagné 750€ en 3 jours! ${firstName}, votre tour commence ici.`,
             keyboard: Markup.inlineKeyboard([
-                Markup.button.url('Je veux gagner aussi', 'https://bit.ly/3NJ4vy0')
+                Markup.button.url('Je veux gagner aussi', 'https://cut.solkah.org/1xbet')
             ])
         },
         {
             caption: `🚨 ALERTE ${firstName}! Offre spéciale pour les nouveaux membres: 100€ avec le code Free221. Valable 24h seulement!`,
             keyboard: Markup.inlineKeyboard([
-                Markup.button.url('Profiter de l\'offre', 'https://bit.ly/3NJ4vy0')
+                Markup.button.url('Profiter de l\'offre', 'https://cut.solkah.org/1xbet')
             ])
         },
         {
             caption: `💎 ${firstName}, découvrez la méthode secrète qui a rapporté 1200€ à Sarah en une semaine!`,
             keyboard: Markup.inlineKeyboard([
-                Markup.button.url('Découvrir la méthode', 'https://bit.ly/3NJ4vy0')
+                Markup.button.url('Découvrir la méthode', 'https://cut.solkah.org/1xbet')
             ])
         },
         {
             caption: `📈 ${firstName}, nos statistiques montrent +300% de gains avec la nouvelle mise à jour!`,
             keyboard: Markup.inlineKeyboard([
-                Markup.button.url('Tester maintenant', 'https://bit.ly/3NJ4vy0')
+                Markup.button.url('Tester maintenant', 'https://cut.solkah.org/1xbet')
             ])
         },
         {
             caption: `🎯 ${firstName}, technique exclusive révélée: comment multiplier vos gains par 5!`,
             keyboard: Markup.inlineKeyboard([
-                Markup.button.url('Voir la technique', 'https://bit.ly/3NJ4vy0')
+                Markup.button.url('Voir la technique', 'https://cut.solkah.org/1xbet')
             ])
         }
     ];
@@ -158,21 +158,21 @@ function getDailyTestimony() {
             caption: `🌟 **TÉMOIGNAGE DU JOUR** 🌟\n\n"Grâce à @xgamabot_bot, j'ai gagné 850€ en 4 jours seulement! La méthode est simple et efficace. Je recommande à 100%!"\n- Kevin M., membre depuis 2 semaines\n\n🚀 Rejoignez l'aventure avec @xgamabot_bot !`,
             keyboard: Markup.inlineKeyboard([
                 Markup.button.url('Voir la preuve', 'https://t.me/xfortune00/10'),
-                Markup.button.url('Commencer maintenant', 'https://bit.ly/3NJ4vy0')
+                Markup.button.url('Commencer maintenant', 'https://cut.solkah.org/1xbet')
             ])
         },
         {
             caption: `💫 **TÉMOIGNAGE EXCLUSIF** 💫\n\n"Incroyable! 1200€ en une semaine avec les astuces de @xgamabot_bot. Je n'aurais jamais cru que c'était possible!"\n- Marie L., utilisatrice satisfaite\n\n📲 Ne ratez pas cette opportunité avec @xgamabot_bot !`,
             keyboard: Markup.inlineKeyboard([
                 Markup.button.url('Témoignage vidéo', 'https://t.me/xfortune00/11'),
-                Markup.button.url('Essayer gratuitement', 'https://bit.ly/3NJ4vy0')
+                Markup.button.url('Essayer gratuitement', 'https://cut.solkah.org/1xbet')
             ])
         },
         {
             caption: `🎯 **TÉMOIGNAGE VÉRIFIÉ** 🎯\n\n"@xgamabot_bot a changé ma façon de jouer! Gains garantis et accompagnement personnalisé. Merci l'équipe!"\n- Alex D., gagnant régulier\n\n✨ Faites comme Alex avec @xgamabot_bot !`,
             keyboard: Markup.inlineKeyboard([
                 Markup.button.url('Rejoindre le bot', 'https://t.me/xgamabot_bot'),
-                Markup.button.url('Démarrer', 'https://bit.ly/3NJ4vy0')
+                Markup.button.url('Démarrer', 'https://cut.solkah.org/1xbet')
             ])
         }
     ];
@@ -183,10 +183,10 @@ function getDailyTestimony() {
 // Message de promotion du bot
 function getBotPromotion() {
     return {
-        caption: `🤖 **DÉCOUVREZ @xgamabot_bot** 🤖\n\nNotre bot exclusif vous offre :\n✅ Des hacks Apple Fortune en temps réel\n✅ Des alertes gains instantanées\n✅ Un accompagnement personnalisé\n✅ Des codes promo exclusifs\n✅ Des témoignages vérifiés\n\n🎁 **OFFRE SPÉCIALE** : Utilisez le code "BOT221" pour un bonus de bienvenue !`,
+        caption: `🤖 **DÉCOUVREZ @xgamabot_bot** 🤖\n\nNotre bot exclusif vous offre :\n✅ Des hacks Apple Fortune en temps réel\n✅ Des alertes gains instantanées\n✅ Un accompagnement personnalisé\n✅ Des codes promo exclusifs\n✅ Des témoignages vérifiés\n\n🎁 **OFFRE SPÉCIALE** : Utilisez le code "FREE221" pour un bonus de bienvenue !`,
         keyboard: Markup.inlineKeyboard([
             [Markup.button.url('👑 Rejoindre @xgamabot_bot', 'https://t.me/xgamabot_bot')],
-            [Markup.button.url('🎯 Commencer à gagner', 'https://bit.ly/3NJ4vy0')]
+            [Markup.button.url('🎯 Commencer à gagner', 'https://cut.solkah.org/1xbet')]
         ])
     };
 }
