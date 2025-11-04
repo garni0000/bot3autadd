@@ -56,9 +56,10 @@ async function sendWelcomeDM(userId, firstName, channelUsername) {
         const videoUrl = 'https://t.me/xfortune00/5';
         const caption = `${firstName} vous êtes sur le point de rejoindre l'élite pour gagner avec sur le jeu Apple off Fortune. Veillez vite joindre le canal pour profiter des hack.`;
 
-        const keyboard = Markup.inlineKeyboard([
-            Markup.button.url('Rejoindre maintenant ✅', `https://t.me/${channelUsername.replace('@', '')}`)
-        ]);
+     const keyboard = Markup.inlineKeyboard([
+  Markup.button.url('Rejoindre maintenant ✅', 'https://t.me/solkah00')
+]);
+
 
         await bot.telegram.sendVideo(userId, videoUrl, {
             caption: caption,
