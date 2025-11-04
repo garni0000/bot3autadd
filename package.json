@@ -1,19 +1,36 @@
 {
-  "name": "telegram-hack-bot",
+  "name": "telegram-bot-apple-fortune",
   "version": "1.0.0",
-  "description": "Bot Telegram pour envoyer des pubs Apple of Fortune",
+  "description": "Bot Telegram pour la gestion des demandes de rejoindre les canaux et envoi de publicités ciblées",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "telegram",
+    "bot",
+    "mongodb",
+    "automation",
+    "marketing"
+  ],
+  "author": "Votre Nom",
+  "license": "MIT",
   "dependencies": {
-    "axios": "^1.6.8",
-    "mongodb": "^5.7.0",
-    "telegraf": "^4.16.2"
+    "telegraf": "^4.16.3",
+    "mongodb": "^6.3.0",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   },
-  "author": "ton-nom",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/votre-repo/telegram-bot.git"
+  }
 }
