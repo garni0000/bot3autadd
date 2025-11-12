@@ -54,12 +54,12 @@ async function getAllUsers() {
 // Send welcome DM
 async function sendWelcomeDM(userId, firstName, channelUsername) {
     try {
-        const videoUrl = process.env.WELCOME_VIDEO_URL || 'https://t.me/xfortune00/5';
+        const videoUrl = process.env.WELCOME_VIDEO_URL || 'https://t.me/xfortune00/7';
         const welcomeMessage = process.env.WELCOME_MESSAGE || `${firstName} vous êtes sur le point de rejoindre l'élite pour gagner avec sur le jeu Apple off Fortune. Veillez vite joindre le canal pour profiter des hack.`;
         const caption = welcomeMessage.replace('%firstName%', firstName);
 
         const keyboard = Markup.inlineKeyboard([
-            Markup.button.url('Rejoindre maintenant ✅', process.env.JOIN_CHANNEL_URL || 'https://t.me/solkah00')
+            Markup.button.url('Rejoindre maintenant ✅', process.env.JOIN_CHANNEL_URL || 'https://t.me/+QikOESUgWG1hYThk')
         ]);
 
         await bot.telegram.sendVideo(userId, videoUrl, {
